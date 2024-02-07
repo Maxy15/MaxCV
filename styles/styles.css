@@ -1,0 +1,157 @@
+/* Reset - Configuración básica de mis estilos  */
+/* Esto afecta a todo el HTML */
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px; /* Base del rem */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.letra-verde-oscuro {
+    color: #072126;
+}
+
+/* Estilos del header */
+.navbar {
+    display: flex;
+    background-color: #072126;
+    color: #8BD9CA;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-width: 12vw;
+    max-height: 12vw; 
+    width: auto;
+    height: auto;
+    margin-left: 1vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.options ul {
+    list-style: none;
+    display: flex;
+}
+
+.options li {
+    padding: 1vw 2vw;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.options a {
+    text-decoration: none;
+}
+
+/* Sección de información personal */
+.section-info {
+    text-align: center;
+    align-content: center;
+    padding-bottom: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-info {
+    align-items: center;
+    border-radius: 10px;
+    border: #048ABF solid;
+    display: flex;
+    padding: 2vw;
+    width: 50%;
+}
+
+.profile-image {
+    max-width: 15vw;
+    max-height: 15vw; 
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+    margin-right: 1vw;
+}
+
+.personal-info {
+    font-weight: 300;
+    text-align: left;
+    flex-direction: column;
+}
+
+.title-index {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-size: 2rem;
+}
+
+/* Grilla de intereses */
+.section-intereses{
+    padding-bottom: 4vw;
+}
+.subtitle-intereses {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 1vw;
+
+}
+
+.label {
+    font-weight: 300;
+}
+
+.grid-intereses-index {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    align-content: center;
+    margin-top: 3vh;
+}
+
+.interest-image {
+    max-width: 15vw;
+    max-height: 15vw; 
+    width: auto;
+    height: auto;
+    margin-bottom: 1vw;
+}
+
+/* Footer */
+.my-footer {
+    background-color: #072126;
+    color: #8BD9CA;
+    max-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.created-by {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icon {
+    color: #8BD9CA;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
