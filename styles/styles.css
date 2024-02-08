@@ -7,47 +7,15 @@
     padding: 0;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
 .letra-verde-oscuro {
     color: #072126;
 }
 
-/* Estilos del header */
-.navbar {
-    display: flex;
-    background-color: #072126;
-    color: #8BD9CA;
-    justify-content: space-between;
-    align-items: center;
-}
+/* ESTILOS DEL HEADER */
 
-.logo {
-    max-width: 12vw;
-    max-height: 12vw; 
-    width: auto;
-    height: auto;
-    margin-left: 1vw;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-.options ul {
-    list-style: none;
-    display: flex;
-}
-
-.options li {
-    padding: 1vw 2vw;
-    font-weight: 400;
-    font-size: 0.9rem;
-}
-
-.options a {
-    text-decoration: none;
+/* Se usa el !important para que prevalezca en el side menu */
+.bg-verde-oscuro {
+    background-color: #072126 !important;
 }
 
 /* Sección de información personal */
@@ -85,7 +53,7 @@ a {
 }
 
 .title-index {
-    margin-top: 3vw;
+    margin-top: 10vw;
     margin-bottom: 3vw;
     font-size: 2rem;
 }
@@ -154,4 +122,3 @@ a {
     font-size: 1.2rem;
     text-decoration: none;
 }
-
