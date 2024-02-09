@@ -18,6 +18,9 @@
     background-color: #072126 !important;
 }
 
+.texto-verde-claro {
+    color: #8BD9CA;
+} 
 /* Sección de información personal */
 .section-info {
     text-align: center;
@@ -87,38 +90,4 @@
     width: auto;
     height: auto;
     margin-bottom: 1vw;
-}
-
-/* Footer */
-.my-footer {
-    background-color: #072126;
-    color: #8BD9CA;
-    max-height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.created-by {
-    font-size: 0.8rem;
-    font-weight: 300;
-}
-
-.icons {
-    display: flex;
-    gap: 20px;
-}
-
-.icon {
-    color: #8BD9CA;
-    font-size: 1.2rem;
-    text-decoration: none;
 }
