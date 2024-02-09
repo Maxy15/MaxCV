@@ -17,73 +17,75 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-dark bg-verde-oscuro fixed-top">
+            <nav class="navbar navbar-dark background-color--dark-green">
                 <div class="container-fluid">
                     <a href="index.html" class="navbar-brand">
                         <img src="assets/png/Logo claro corto.png" width="100" alt="Logo Max Programmer" class="d-inline-block align-middle mr-2">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-                        <span class="navbar-toggler-icon"></span>
+                    <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                        <span class="navbar-toggler-icon text-white"></span>
                     </button>
-                    <div class="offcanvas offcanvas-end bg-verde-oscuro" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas offcanvas-end background-color--dark-green" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                         <div class="offcanvas-header">
                             <a href="index.html" class="navbar-brand offcanvas-title" id="offcanvasDarkNavbarLabel">
                                 <img src="assets/png/Logo claro extendido.png" width="100" alt="Logo Max Programmer" class="d-inline-block align-middle mr-2">
                             </a>
-                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <button type="button" class="btn-close btn-close-white text-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item"><a href="index.html" class="nav-link active">Sobre mí</a></li>
-                                <li class="nav-item"><a href="pages/educacion.html" class="nav-link">Educación</a></li>
-                                <li class="nav-item"><a href="pages/habilidades.html" class="nav-link">Habilidades</a></li>
-                                <li class="nav-item"><a href="pages/programacion.html" class="nav-link">Programación</a></li>
-                                <li class="nav-item"><a href="pages/diseno.html" class="nav-link">Diseño</a></li>
+                                <li class="nav-item"><a href="index.html" class="nav-link active fs-4">Sobre mí</a></li>
+                                <li class="nav-item"><a href="pages/educacion.html" class="nav-link fs-4">Educación</a></li>
+                                <li class="nav-item"><a href="pages/habilidades.html" class="nav-link fs-4">Habilidades</a></li>
+                                <li class="nav-item"><a href="pages/programacion.html" class="nav-link fs-4">Programación</a></li>
+                                <li class="nav-item"><a href="pages/diseno.html" class="nav-link fs-4">Diseño</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </nav>
         </header>
-        <main>
-            <section class="section-info">
-                <h1 class="title-index letra-verde-oscuro">¡Hola! Me llamo Max Alejandro Yáñez Orias</h1>
-                <aside class="card-info">
-                    <div>
-                        <img src="assets/png/perfil.png" alt="Foto de perfil" class="profile-image">
+        <main class="mx-3 my-5">
+            <section id="personalInfoSection" class="text-center">
+                <h1 class="text-color--dark-green fs-1 fw-semibold mb-3">¡Bienvenid@s a Max Programmer!</h1>
+                <div class="card mb-3 col-md-6 mx-auto shadow">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="assets/png/perfil.png" class="img-fluid rounded-start h-100 w-100 profile-picture" alt="Foto de perfil">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title fs-5 fw-semibold">Max Alejandro Yáñez Orias</h5>
+                                <p class="card-text fw-light fs-6 py-1">
+                                    Soy Ingeniero en Computación de profesión, con experiencia en el desarrollo <i>frontend</i> y <i>mobile</i>, siendo este último mi labor principal. Además, me gusta el proceso previo de diseñar una aplicación pensando en los usuarios, por ende, actualmente también participo en diversos proyectos de Diseño UX/UI. En este lugar, podrás saber un poco más de mí y de mis anteriores trabajos.  
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="personal-info">
-                        <p class="letra-verde-oscuro">
-                            Soy Ingeniero en Computación de profesión, con experiencia en el desarrollo <i>frontend</i> y <i>mobile</i>, siendo este último mi labor principal. Además, me gusta el proceso previo de diseñar una aplicación pensando en los usuarios, por ende, actualmente también participo en diversos proyectos de Diseño UX/UI. En este lugar, podrás saber un poco más de mí y de mis anteriores trabajos.  
-                        </p>
-                    </div>            
-                </aside>
+                </div>
             </section>
-            <section class="section-intereses">
-                <h2 class="subtitle-intereses letra-verde-oscuro">Principales intereses</h2>
-                <div class="grid-intereses-index">
-                    <div class="first-interest">
-                        <div>
-                            <img src="assets/png/web.png" alt="Interés en desarrollo web" class="interest-image">
-                            <p class="label letra-verde-oscuro">Desarrollo web</p>
+            <section id="interestsSection" class="my-5">
+                <h2 class="text-color--dark-green fs-3 fw-semibold my-2">Principales intereses</h2>
+                <div class="container">
+                    <div class="row text-center justify-content-center g-5">
+                        <div class="col-md-3">
+                            <img src="assets/png/web.png" alt="Interés en desarrollo web" class="img-fluid">
+                            <p class="text-color--dark-green fs-4 mt-2">Desarrollo web</p>
                         </div>
-                    </div>
-                    <div class="second-interest">
-                        <div>
-                            <img src="assets/png/mobile.png" alt="Interés en desarrollo móvil"class="interest-image">
-                            <p class="label letra-verde-oscuro">Desarrollo móvil</p>
+                        <div class="col-md-3">
+                            <img src="assets/png/mobile.png" alt="Interés en desarrollo móvil" class="img-fluid">
+                            <p class="text-color--dark-green fs-4 mt-2">Desarrollo móvil</p>
                         </div>
-                    </div>
-                    <div class="third-interest">
-                        <div>
-                            <img src="assets/png/ux ui design.png" alt="Interés en diseño UX/UI" class="interest-image">
-                            <p class="label letra-verde-oscuro">Diseño UX/UI</p>
+                        <div class="col-md-3">
+                            <img src="assets/png/ux ui design.png" alt="Interés en diseño UX/UI" class="img-fluid">
+                            <p class="text-color--dark-green fs-4 mt-2">Diseño UX/UI</p>
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
         <footer class="d-flex justify-content-center align-items-center">
-            <nav class="navbar bg-verde-oscuro fixed-bottom py-2">
+            <nav class="navbar background-color--dark-green fixed-bottom py-2">
                 <div class="container-fluid">
                     <p class="text-white small fw-light mb-0">Max Yáñez © | Desarrollador </p>
                     <div class="flex in-line">
