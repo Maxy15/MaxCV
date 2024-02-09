@@ -1,22 +1,27 @@
-/* Reset - Configuración básica de mis estilos  */
-/* Esto afecta a todo el HTML */
+/* Reset - Afecta a todos los HTML */
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Colores */
+.text-color--green {
+    color: #459526;
+}
 .text-color--dark-green {
     color: #072126;
 }
 
-/* ESTILOS DEL HEADER */
-
-/* Se usa el !important para que prevalezca en el side menu */
 .background-color--dark-green {
     background-color: #072126 !important;
 } 
 
-.profile-picture {
+.star-icon--blue {
+    color: #048ABF;
+}
+
+/* Imágenes */
+.cover-picture {
     object-fit: cover;
 }
