@@ -25,3 +25,8 @@
 .cover-picture {
     object-fit: cover;
 }
+
+.cover-picture--puc {
+    height: 30%;
+    width: auto;
+}
