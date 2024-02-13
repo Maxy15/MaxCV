@@ -26,7 +26,18 @@
     object-fit: cover;
 }
 
-.cover-picture--puc {
-    height: 30%;
-    width: auto;
+/* Estilos para las flechas del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #DFDFDF;
+    color: white;
+    border-radius: 20%;
+}
+
+/* Estilos para el color de las flechas cuando se les pasa el mouse */
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-color: #072126;
+    color: white;
+    border-radius: 20%;
 }
