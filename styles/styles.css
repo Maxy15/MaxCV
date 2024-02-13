@@ -26,6 +26,25 @@
     object-fit: cover;
 }
 
+/* Oculta la imagen hover inicialmente */
+.profile-picture-container .hover {
+    display: none;
+    padding: 0;
+}
+
+/* Muestra la imagen hover cuando hay un hover sobre el contenedor */
+.profile-picture-container:hover .hover {
+    display: block;
+    padding: 0;
+}
+
+/* Oculta la imagen normal cuando hay un hover sobre el contenedor */
+.profile-picture-container:hover .normal {
+    display: none;
+    padding: 0;
+}
+
+
 /* Estilos para las flechas del carrusel */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
