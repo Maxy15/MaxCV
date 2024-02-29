@@ -1,0 +1,30 @@
+/* Colores de texto */ 
+$colores: (
+    dark-green: #072126,
+    green: #459526,
+    blue: #048ABF,
+    black: #000000,
+    gray: #DFDFDF,
+    dark-gray: #494949,
+    white: #ffffff
+);
+
+@each $color, $hex in $colores {
+    .text-color--#{$color} {
+        color: $hex;
+    }
+}
+
+/* Fondos */
+.background-color--dark-green {
+    background-color: map-get($colores, dark-green) !important;
+} 
+
+/* Iconos de estrella */
+.star-icon--blue {
+    color: map-get($colores, blue);
+}
+
+.star-icon--dark-gray {
+    color: map-get($colores, dark-gray);
+}

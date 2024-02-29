@@ -1,0 +1,23 @@
+/* Imágenes */
+.cover-picture {
+    object-fit: cover;
+}
+
+.profile-picture-container {
+    .hover {
+        display: none;
+        padding: 0;
+    }
+
+    &:hover {
+        .hover {
+            display: block;
+            padding: 0;
+        }
+
+        .normal {
+            display: none;
+            padding: 0;
+        }
+    }
+}

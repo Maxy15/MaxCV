@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* Colores de texto */
+.text-color--dark-green {
+  color: #072126;
+}
+
+.text-color--green {
+  color: #459526;
+}
+
+.text-color--blue {
+  color: #048ABF;
+}
+
+.text-color--black {
+  color: #000000;
+}
+
+.text-color--gray {
+  color: #DFDFDF;
+}
+
+.text-color--dark-gray {
+  color: #494949;
+}
+
+.text-color--white {
+  color: #ffffff;
+}
+
+/* Fondos */
+.background-color--dark-green {
+  background-color: #072126 !important;
+}
+
+/* Iconos de estrella */
+.star-icon--blue {
+  color: #048ABF;
+}
+
+.star-icon--dark-gray {
+  color: #494949;
+}
+
+/* Imágenes */
+.cover-picture {
+  object-fit: cover;
+}
+
+.profile-picture-container .hover {
+  display: none;
+  padding: 0;
+}
+.profile-picture-container:hover .hover {
+  display: block;
+  padding: 0;
+}
+.profile-picture-container:hover .normal {
+  display: none;
+  padding: 0;
+}
+
+/* Colores de texto */
+.text-color--dark-green {
+  color: #072126;
+}
+
+.text-color--green {
+  color: #459526;
+}
+
+.text-color--blue {
+  color: #048ABF;
+}
+
+.text-color--black {
+  color: #000000;
+}
+
+.text-color--gray {
+  color: #DFDFDF;
+}
+
+.text-color--dark-gray {
+  color: #494949;
+}
+
+.text-color--white {
+  color: #ffffff;
+}
+
+/* Fondos */
+.background-color--dark-green {
+  background-color: #072126 !important;
+}
+
+/* Iconos de estrella */
+.star-icon--blue {
+  color: #048ABF;
+}
+
+.star-icon--dark-gray {
+  color: #494949;
+}
+
+/* Carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #DFDFDF;
+  color: #ffffff;
+  border-radius: 20%;
+}
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Reset - Afecta a todos los HTML */
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

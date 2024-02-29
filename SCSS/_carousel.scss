@@ -1,0 +1,14 @@
+@import "colors";
+
+/* Carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: map-get($colores, gray);;
+    color: map-get($colores, white);;
+    border-radius: 20%;
+
+    &:hover {
+        background-color: map-get($colores, black);;
+        color: map-get($colores, white);
+    }
+}
