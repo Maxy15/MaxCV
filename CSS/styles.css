@@ -33,6 +33,10 @@
   background-color: #072126 !important;
 }
 
+.background-color--dark-gray {
+  background-color: #494949 !important;
+}
+
 /* Iconos de estrella */
 .star-icon--blue {
   color: #048ABF;
@@ -47,6 +51,11 @@
   object-fit: cover;
 }
 
+@media (max-width: 768px) { /* Media query para pantallas pequeñas */
+  .reduced-size {
+    width: 50%; /* Reducir el ancho de las imágenes al 40% del ancho de la pantalla */
+  }
+}
 .profile-picture-container .hover {
   display: none;
   padding: 0;
@@ -92,6 +101,10 @@
 /* Fondos */
 .background-color--dark-green {
   background-color: #072126 !important;
+}
+
+.background-color--dark-gray {
+  background-color: #494949 !important;
 }
 
 /* Iconos de estrella */
@@ -149,6 +162,21 @@
 @media screen and (min-width: 768px) {
   .element-size {
     font-size: 24px;
+  }
+}
+
+/* JSON de la card de programación */
+.json-info {
+  padding: 10px;
+  font-size: 18px;
+  overflow: hidden;
+  max-height: 200px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 100;
+}
+@media screen and (max-width: 768px) {
+  .json-info {
+    font-size: 15px;
   }
 }
 

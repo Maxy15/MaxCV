@@ -1,0 +1,13 @@
+/* JSON de la card de programación */
+.json-info {
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+    max-height: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+
+    @media screen and (max-width: 768px) {
+        font-size: 15px; // Cambia el tamaño del texto en pantallas pequeñas
+    }
+}
