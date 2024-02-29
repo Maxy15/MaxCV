@@ -1,0 +1,22 @@
+@mixin define-text($font-size-small, $font-size-large, $margin-y, $weight) {
+    font-size: $font-size-small;
+    margin-top: $margin-y;
+    margin-bottom: $margin-y;
+    font-weight: $weight;
+
+    @media screen and (min-width: 768px) {
+        font-size: $font-size-large;
+    }
+}
+
+.title-size {
+    @include define-text(30px, 40px, 40px, 700);
+}
+
+.subtitle-size {
+    @include define-text(24px, 30px, 30px, 600);
+}
+
+.element-size {
+    @include define-text(20px, 24px, 10px, 400);
+}
