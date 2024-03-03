@@ -1,6 +1,6 @@
 # MaxCV :computer:
 
-Hola! Este es un sitio sobre mí hecho con HTML y CSS puro. Aquí pueden encontrar 5 secciones principales:
+Hola! Este es un sitio sobre mí hecho con HTML, SASS, Bootstrap y la librería de animaciones AOS. Aquí pueden encontrar 5 secciones principales:
 
 * Home: Un poco sobre mí y mis intereses.
 * Educación: Un resumen sobre mis estudios y mis certificaciones.

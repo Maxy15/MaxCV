@@ -33,10 +33,6 @@
   background-color: #072126 !important;
 }
 
-.background-color--dark-gray {
-  background-color: #494949 !important;
-}
-
 /* Iconos de estrella */
 .star-icon--blue {
   color: #048ABF;
@@ -101,10 +97,6 @@
 /* Fondos */
 .background-color--dark-green {
   background-color: #072126 !important;
-}
-
-.background-color--dark-gray {
-  background-color: #494949 !important;
 }
 
 /* Iconos de estrella */
@@ -179,6 +171,27 @@
   .json-info {
     font-size: 15px;
   }
+}
+
+/* Fondos por empresa */
+.background-card--quoter {
+  background-color: #4EB5D3;
+}
+
+.background-card--retorna {
+  background-color: #C14129;
+}
+
+.background-card--genosur {
+  background-color: #85BF4B;
+}
+
+.background-card--inexoos {
+  background-color: #6333A6;
+}
+
+.background-card--hf-copec {
+  background-color: #0B51FC;
 }
 
 /* Reset - Afecta a todos los HTML */

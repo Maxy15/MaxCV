@@ -20,10 +20,6 @@ $colores: (
     background-color: map-get($colores, dark-green) !important;
 } 
 
-.background-color--dark-gray {
-    background-color: map-get($colores, dark-gray) !important;
-} 
-
 /* Iconos de estrella */
 .star-icon--blue {
     color: map-get($colores, blue);

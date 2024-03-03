@@ -1,10 +1,10 @@
 /* Colores de las cards */ 
-$proyectos: (
-    quoter: #072126,
-    retorna: #459526,
-    genosur: #048ABF,
-    inexoos: #000000,
-    hf-copec: #DFDFDF,
+$projects: (
+    quoter: #4EB5D3,
+    retorna: #C14129,
+    genosur: #85BF4B,
+    inexoos: #6333A6,
+    hf-copec: #0B51FC,
 );
 
 /* JSON de la card de programación */
@@ -18,5 +18,12 @@ $proyectos: (
 
     @media screen and (max-width: 768px) {
         font-size: 15px; // Cambia el tamaño del texto en pantallas pequeñas
+    }
+}
+
+/* Fondos por empresa */
+@each $project, $hex in $projects {
+    .background-card--#{$project} {
+        background-color: $hex;
     }
 }
