@@ -3,20 +3,20 @@
     object-fit: cover;
 }
 
-@media (max-width: 768px) { /* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
     .reduced-size {
-        width: 50%; /* Reducir el ancho de las imágenes al 40% del ancho de la pantalla */
+        width: 50%;
     }
 }
 
 .profile-picture-container {
-    .hover {
+    .clicked {
         display: none;
         padding: 0;
     }
 
     &:hover {
-        .hover {
+        .clicked {
             display: block;
             padding: 0;
         }
