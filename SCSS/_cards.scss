@@ -1,3 +1,5 @@
+@import "colors";
+
 /* Colores de las cards */ 
 $projects: (
     quoter: #4EB5D3,
@@ -26,4 +28,13 @@ $projects: (
     .background-card--#{$project} {
         background-color: $hex;
     }
+}
+
+/* Iconos de estrella */
+.star-icon--blue {
+    color: map-get($colores, blue);
+}
+
+.star-icon--dark-gray {
+    color: map-get($colores, dark-gray);
 }

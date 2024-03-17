@@ -1,0 +1,31 @@
+@import "colors";
+
+/* Reset - Afecta a todos los HTML */
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fondo del header */
+.background-color--dark-green {
+    background-color: map-get($colores, dark-green) !important;
+} 
+
+/* Colores de texto */
+.text-color--dark-gray {
+    color: map-get($colores, dark-gray);;
+}
+
+.text-color--dark-green {
+    color: map-get($colores, dark-green);;
+}
+
+.text-color--white {
+    color: map-get($colores, white);;
+}
+
+/* Margin pre-footer */
+.margin-bottom-section {
+    margin-bottom: 80px;
+}

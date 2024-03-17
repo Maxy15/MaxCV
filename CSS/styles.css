@@ -1,126 +1,35 @@
 @charset "UTF-8";
+/* Reset - Afecta a todos los HTML */
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fondo del header */
+.background-color--dark-green {
+  background-color: #072126 !important;
+}
+
 /* Colores de texto */
-.text-color--dark-green {
-  color: #072126;
-}
-
-.text-color--green {
-  color: #459526;
-}
-
-.text-color--blue {
-  color: #048ABF;
-}
-
-.text-color--black {
-  color: #000000;
-}
-
-.text-color--gray {
-  color: #DFDFDF;
-}
-
 .text-color--dark-gray {
   color: #494949;
+}
+
+.text-color--dark-green {
+  color: #072126;
 }
 
 .text-color--white {
   color: #ffffff;
 }
 
-/* Fondos */
-.background-color--dark-green {
-  background-color: #072126 !important;
+/* Margin pre-footer */
+.margin-bottom-section {
+  margin-bottom: 80px;
 }
 
-/* Iconos de estrella */
-.star-icon--blue {
-  color: #048ABF;
-}
-
-.star-icon--dark-gray {
-  color: #494949;
-}
-
-/* Imágenes */
-.cover-picture {
-  object-fit: cover;
-}
-
-@media (max-width: 768px) {
-  .reduced-size {
-    width: 50%;
-  }
-}
-.profile-picture-container .clicked {
-  display: none;
-  padding: 0;
-}
-.profile-picture-container:hover .clicked {
-  display: block;
-  padding: 0;
-}
-.profile-picture-container:hover .normal {
-  display: none;
-  padding: 0;
-}
-
-/* Colores de texto */
-.text-color--dark-green {
-  color: #072126;
-}
-
-.text-color--green {
-  color: #459526;
-}
-
-.text-color--blue {
-  color: #048ABF;
-}
-
-.text-color--black {
-  color: #000000;
-}
-
-.text-color--gray {
-  color: #DFDFDF;
-}
-
-.text-color--dark-gray {
-  color: #494949;
-}
-
-.text-color--white {
-  color: #ffffff;
-}
-
-/* Fondos */
-.background-color--dark-green {
-  background-color: #072126 !important;
-}
-
-/* Iconos de estrella */
-.star-icon--blue {
-  color: #048ABF;
-}
-
-.star-icon--dark-gray {
-  color: #494949;
-}
-
-/* Carrusel */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: #DFDFDF;
-  color: #ffffff;
-  border-radius: 20%;
-}
-.carousel-control-prev-icon:hover,
-.carousel-control-next-icon:hover {
-  background-color: #000000;
-  color: #ffffff;
-}
-
+/* Tamaños de textos */
 .title-size {
   font-size: 30px;
   margin-top: 40px;
@@ -155,6 +64,29 @@
   .element-size {
     font-size: 24px;
   }
+}
+
+/* Imágenes */
+.cover-picture {
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .reduced-size {
+    width: 50%;
+  }
+}
+.profile-picture-container .clicked {
+  display: none;
+  padding: 0;
+}
+.profile-picture-container:hover .clicked {
+  display: block;
+  padding: 0;
+}
+.profile-picture-container:hover .normal {
+  display: none;
+  padding: 0;
 }
 
 /* Colores de las cards */
@@ -194,15 +126,26 @@
   background-color: #0B51FC;
 }
 
-/* Reset - Afecta a todos los HTML */
-* {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
+/* Iconos de estrella */
+.star-icon--blue {
+  color: #048ABF;
 }
 
-.margin-bottom-section {
-  margin-bottom: 80px;
+.star-icon--dark-gray {
+  color: #494949;
+}
+
+/* Carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #DFDFDF;
+  color: #ffffff;
+  border-radius: 20%;
+}
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=styles.css.map */

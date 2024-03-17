@@ -1,3 +1,4 @@
+/* Tamaños de textos */
 @mixin define-text($font-size-small, $font-size-large, $margin-y, $weight) {
     font-size: $font-size-small;
     margin-top: $margin-y;

@@ -1,16 +1,5 @@
-@import "colors";
-@import "pictures";
-@import "carousel";
+@import "reset";
 @import "texts";
+@import "pictures";
 @import "cards";
-
-/* Reset - Afecta a todos los HTML */
-* {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.margin-bottom-section {
-    margin-bottom: 80px;
-}
+@import "carousel";
